@@ -919,34 +919,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &716991662 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6279068960261158618, guid: f1b58c3b5d62444fe923ffe6377a9884,
-    type: 3}
-  m_PrefabInstance: {fileID: 1620385977}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &716991668 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6279068960261158593, guid: f1b58c3b5d62444fe923ffe6377a9884,
     type: 3}
   m_PrefabInstance: {fileID: 1620385977}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &716991669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716991662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6bfde7e0be9440f9a90813bbbe1a22a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minDistance: 1000000
-  debug: 0
-  type: 
-  hoverTime: 1
 --- !u!1001 &796645617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1189,11 +1167,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 
-  useMouse: 0
+  useMouse: 1
   alwaysActive: 1
   button: {fileID: 0}
   layers: []
-  firstRaycastOnly: 1
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1207,11 +1184,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: explode
-  useMouse: 0
+  useMouse: 1
   alwaysActive: 0
   button: {fileID: 1002105826}
   layers: []
-  firstRaycastOnly: 1
 --- !u!1 &1002105824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,34 +1300,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002105824}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1024490934 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6279068960261158618, guid: f1b58c3b5d62444fe923ffe6377a9884,
-    type: 3}
-  m_PrefabInstance: {fileID: 138825082}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1024490940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6279068960261158593, guid: f1b58c3b5d62444fe923ffe6377a9884,
     type: 3}
   m_PrefabInstance: {fileID: 138825082}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1024490941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024490934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6bfde7e0be9440f9a90813bbbe1a22a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minDistance: 1000000
-  debug: 0
-  type: 
-  hoverTime: 1
 --- !u!1 &1388423257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,7 +1439,6 @@ GameObject:
   - component: {fileID: 1424320664}
   - component: {fileID: 1424320663}
   - component: {fileID: 1424320662}
-  - component: {fileID: 1424320667}
   - component: {fileID: 1424320668}
   - component: {fileID: 1424320669}
   m_Layer: 0
@@ -1594,22 +1547,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1424320667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424320661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6bfde7e0be9440f9a90813bbbe1a22a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minDistance: 1000000
-  debug: 0
-  type: explode
-  hoverTime: 1
 --- !u!114 &1424320668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1646,34 +1583,12 @@ MonoBehaviour:
   hoverTime: 1
   color: {r: 1, g: 0, b: 0, a: 1}
   target: {fileID: 0}
---- !u!1 &1433947172 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6279068960261158618, guid: f1b58c3b5d62444fe923ffe6377a9884,
-    type: 3}
-  m_PrefabInstance: {fileID: 586826924}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1433947178 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6279068960261158593, guid: f1b58c3b5d62444fe923ffe6377a9884,
     type: 3}
   m_PrefabInstance: {fileID: 586826924}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1433947179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433947172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6bfde7e0be9440f9a90813bbbe1a22a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minDistance: 1000000
-  debug: 0
-  type: 
-  hoverTime: 1
 --- !u!1 &1437307416
 GameObject:
   m_ObjectHideFlags: 0
