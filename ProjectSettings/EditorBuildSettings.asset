@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Shared/Scenes/SetupWCardboard.unity
     guid: 11a7fabdc49474bc1bcbda447f62ddc4
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Shared/Scenes/SetupWControllers.unity
     guid: a8eeeca07034f47dcaf9dbe4f5c80466
   m_configObjects: {}
