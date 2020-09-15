@@ -1167,7 +1167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 
-  useMouse: 1
+  useMouse: 0
   alwaysActive: 1
   button: {fileID: 0}
   layers: []
@@ -1184,7 +1184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: explode
-  useMouse: 1
+  useMouse: 0
   alwaysActive: 0
   button: {fileID: 1002105826}
   layers: []
